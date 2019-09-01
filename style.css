@@ -32,7 +32,16 @@ h2 {
 }
 
 hr {
+    border: solid darkcyan 1px;
+}
+
+.line {
     border: solid darkcyan 2px;
+}
+
+.line-2 {
+    border: solid darkcyan 1px;
+    margin-top: -5px;
 }
 
 legend {
@@ -129,6 +138,12 @@ button:hover {
 input[type]:focus, textarea:focus, select:focus {
     border:2px solid darkcyan;
     background: white; 
+}
+
+::placeholder {
+    text-align: right;
+    padding-right: 20px;
+    font-style: italic;
 }
 
 @media (min-width: 768px) {
